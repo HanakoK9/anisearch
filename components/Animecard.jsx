@@ -1,5 +1,4 @@
 import Image from 'next/image';
-import Link from 'next/link';
 
 const Animecard = ({ top }) => {
   return (
@@ -14,7 +13,9 @@ const Animecard = ({ top }) => {
       </div>
       <div className='justify-center card-actions mb-4'>
         <button className='btn btn-outline btn-accent'>
-          <Link href={top.url}>More Info</Link>
+          <a href={top.url} rel='noreferrer' target='_blank'>
+            More Info
+          </a>
         </button>
       </div>
     </div>

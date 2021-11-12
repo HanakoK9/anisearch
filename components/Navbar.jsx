@@ -22,7 +22,7 @@ const Navbar = () => {
           </Link>
           <div className='ml-4 flex items-center md:ml-6'>
             <a
-              href='https://github.com/HanakoK9'
+              href='https://github.com/HanakoK9/anisearch'
               className='p-1 rounded-full text-gray-300'
               target='_blank'
             >

@@ -7,7 +7,7 @@ const Footer = () => {
         <h1 className='text-xl text-gray-400'>
           <Link href='/'>ANiSEARCH</Link>
         </h1>
-        <p>Copyright © 2021 - All right reserved</p>
+        <p>Copyright &copy; 2021 - All right reserved</p>
       </div>
     </footer>
   );

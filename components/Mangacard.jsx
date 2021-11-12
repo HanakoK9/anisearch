@@ -1,5 +1,4 @@
 import Image from 'next/image';
-import Link from 'next/link';
 
 const Mangacard = ({ manga }) => {
   return (
@@ -12,7 +11,9 @@ const Mangacard = ({ manga }) => {
         </h3>
         <div className='justify-center card-actions'>
           <button className='btn btn-outline btn-accent'>
-            <Link href={manga.url}>More Info</Link>
+            <a href={manga.url} rel='noreferrer' target='_blank'>
+              More Info
+            </a>
           </button>
         </div>
       </div>
